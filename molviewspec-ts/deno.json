@@ -3,7 +3,7 @@
   "version": "1.8.1",
   "exports": "./mod.ts",
   "publish": {
-    "exclude": ["examples/", "tests/", "*.mvsj", "*.mvsx", ".vscode/", ".idea/"]
+    "exclude": ["examples/", "tests/", "*.mvsj", "*.mvsx"]
   },
   "tasks": {
     "test": "deno test --allow-read --allow-write",
